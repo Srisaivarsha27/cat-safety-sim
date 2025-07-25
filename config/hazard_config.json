@@ -1,0 +1,90 @@
+{
+  "seatbelt_violation": {
+    "description": "Seatbelt not fastened while vehicle is moving.",
+    "severity": "high",
+    "actions": {
+      "Fasten": 3,
+      "STOP": 1,
+      "Continue": -3
+    }
+  },
+  "engine_overheat": {
+    "description": "Engine temperature exceeded safe threshold.",
+    "severity": "medium",
+    "actions": {
+      "Cool Down": 3,
+      "Reduce Load": 2,
+      "STOP": 0,
+      "Continue": -3
+    }
+  },
+  "low_fuel": {
+    "description": "Fuel level critically low during operation.",
+    "severity": "medium",
+    "actions": {
+      "Refuel": 3,
+      "Reduce Load": 1,
+      "STOP": 0,
+      "Continue": -2
+    }
+  },
+  "proximity_alert": {
+    "description": "Obstacle or person detected too close.",
+    "severity": "critical",
+    "actions": {
+      "STOP": 3,
+      "Reverse": 2,
+      "Alert Supervisor": 1,
+      "Continue": -3
+    }
+  },
+  "geofence_violation": {
+    "description": "Machine outside assigned operational zone.",
+    "severity": "medium",
+    "actions": {
+      "Return to Zone": 3,
+      "Alert Supervisor": 1,
+      "STOP": 0,
+      "Ignore": -2
+    }
+  },
+  "brake_not_applied_on_slope": {
+    "description": "Brakes not engaged on inclined terrain.",
+    "severity": "high",
+    "actions": {
+      "Apply Brake": 3,
+      "STOP": 1,
+      "Continue": -3
+    }
+  },
+  "hydraulic_pressure_surge": {
+    "description": "Hydraulic pressure exceeded safe limit.",
+    "severity": "medium",
+    "actions": {
+      "Reduce Load": 3,
+      "Alert Maintenance": 2,
+      "STOP": 1,
+      "Continue": -2
+    }
+  },
+  "idle_timeout": {
+    "description": "Machine idle for too long.",
+    "severity": "low",
+    "actions": {
+      "Adjust Operation": 2,
+      "Restart Task": 1,
+      "STOP": 0,
+      "Continue": -1
+    }
+  },
+  "vibration_spike": {
+    "description": "Machine vibration exceeding limits.",
+    "severity": "medium",
+    "actions": {
+      "Adjust Position": 3,
+      "Alert Maintenance": 2,
+      "STOP": 1,
+      "Continue": -2
+    }
+  }
+}

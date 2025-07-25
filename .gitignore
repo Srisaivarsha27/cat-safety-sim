@@ -1,0 +1,23 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Models / large files (optional)
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# SQLite DB (optional)
+*.db

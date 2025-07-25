@@ -1,0 +1,20 @@
+{
+  "excavator": {
+    "max_torque": 800,
+    "safe_speed": 12,
+    "safe_temp": 85,
+    "weight_capacity": 10000
+  },
+  "bulldozer": {
+    "max_torque": 1000,
+    "safe_speed": 10,
+    "safe_temp": 90,
+    "weight_capacity": 12000
+  },
+  "loader": {
+    "max_torque": 850,
+    "safe_speed": 14,
+    "safe_temp": 88,
+    "weight_capacity": 9000
+  }
+}

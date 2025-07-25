@@ -1,0 +1,17 @@
+# Core
+streamlit==1.35.0
+pandas
+numpy
+python-dotenv
+
+# Backend + Logging
+sqlite-utils
+
+# Async + Simulation
+asyncio
+
+#Feedback through API (if you use it)
+openai
+
+# Development / Testing
+pytest
