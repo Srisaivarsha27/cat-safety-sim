@@ -137,10 +137,12 @@ cat-safety-sim/
 ├── frontend/               # Streamlit frontend
 ├── simulator/              # Task simulation engine
 ├── test/                   # Unit tests
+├── dynamic_task_operator_match.ipynb
 ├── requirements.txt
 ├── README.md
 ```
 
+If the Jupyter Notebook doesn't open, use this link: https://colab.research.google.com/drive/1sdU7AVcW4paszHoXoz7fVqe6PXahecou?usp=sharing
 ---
 
 ## 🧠 Future Enhancements
@@ -154,7 +156,7 @@ cat-safety-sim/
 
 ## 👩‍💻 Authors
 
-* [Your Name](https://github.com/yourusername)
-* [Collaborator Name](https://github.com/theirusername)
+* [Srisaivarshini B](https://github.com/Srisaivarsha27)
+* [Madhubharathi B](https://github.com/theirusername)
 
 ---
